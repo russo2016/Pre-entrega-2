@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #acad94;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+nav a{
+    color: black;
+    padding-right: 100px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 105px;
+}
+
+.logo h2{
+    font-size: 40px;
+    position: absolute;
+    bottom: 864px;
+    left: 112px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.eslogan{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+.presentacion{
+    display: block;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.presentacion h2{
+    font-size: 40px;
+}
+
+.presentacion p{
+    font-size: 20px;
+}
+
+.presentacion p a{
+    text-decoration: none;
+    color: blue;
+}
+
+.promo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.card{
+    width: 400px;
+    height: 450px;
+    border: solid;
+    background-color: gray;
+}
+
+.card p a{
+    text-decoration: none;
+    color: blue;
+}
+
+section div img{
+    height: 400px;
+    width: 400px;
+}
+
+.card2 p a{
+    text-decoration: none;
+    color: blue;
+}
+
+.card2{
+    margin-right: 0px;
+    width: 400px;
+    height: 450px;
+    border: solid;
+    background-color: gray;
+}
+
+.card3{
+    margin-right: 100px;
+    margin-left: 0px;
+    width: 400px;
+    height: 450px;
+    border: solid;
+    background-color: gray;
+}
+
+.logo-wsp{
+    width: 60px;
+    bottom: 0;
+    right: 40px;
+}
+
+.logo-ig{
+    width: 60px;
+    bottom: 0;
+    right: 40px;
+    margin-left: 60px;
+}
+
+.logo-mail{
+    width: 60px;
+    bottom: 0;
+    right: 40px;
+    margin-left: 60px;
+}
+
+.logo-cv{
+    width: 60px;
+    bottom: 0;
+    right: 40px;
+    margin-left: 60px;
+}
+
+footer{
+    font-size: 25px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.card4{
+    width: 400px;
+    height: 460px;
+    border: solid;
+    background-color: gray;
+    text-align: center;
+}
+
+.card5{
+    margin-right: 100px;
+    margin-left: 0px;
+    width: 400px;
+    height: 460px;
+    border: solid;
+    background-color: gray;
+    text-align: center;
+}
+
+.card6{
+    margin-right: 100px;
+    margin-left: -100px;
+    width: 400px;
+    height: 460px;
+    border: solid;
+    background-color: gray;
+    text-align: center;
+}
+
+.card7{
+        width: 400px;
+        height: 460px;
+        border: solid;
+        background-color: gray;
+        text-align: center;
+}
+
+.card8{
+    margin-right: 100px;
+    margin-left: 0px;
+    width: 400px;
+    height: 460px;
+    border: solid;
+    background-color: gray;
+    text-align: center;
+}
+
+.card9{
+    margin-right: 100px;
+    margin-left: -100px;
+    width: 400px;
+    height: 460px;
+    border: solid;
+    background-color: gray;
+    text-align: center;
+}
+
+.preguntas{
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: double;
+    border-color: black;
+}
+
+.reseña{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.reseña p{
+    margin-bottom: 20px;
+}
+
+#comentario{
+    margin-left: 0px;
+}
